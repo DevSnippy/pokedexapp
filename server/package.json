@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./main.mjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "epxress": "^0.0.1-security",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.0",
+    "node-fetch": "^3.2.6",
+    "nodemon": "^2.0.16"
+  }
+}
